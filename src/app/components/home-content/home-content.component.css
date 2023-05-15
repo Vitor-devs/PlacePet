@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center; /* Alinha a div ao centro horizontalmente */
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; /* Alinha a div ao centro horizontalmente */
+    align-items: center; /* Alinha a div ao centro verticalmente */
+    border: 1px solid red;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.lista{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.link{
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo{
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,37 @@
+/*
+Imports
+font-family: 'Noto Sans Nag Mundari', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+header {
+  background-color: pink;
+}
+
+#nav {
+  background-color: pink;
+}
+
+#lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.link {
+  border: 1px solid red;
+  padding: 1em;
+  border-radius: 1em;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.link > a:hover {
+  color: red;
+}
+
+#titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
